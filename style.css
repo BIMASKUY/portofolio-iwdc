@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(Foto.png);
+    background-size: 250px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+nav h2 span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:red;
+    transition: .4s;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.btn_bawah{
+    padding: 15px 30px;
+    display: flex;
+    width: 20%;
+    font-size: 17px;
+}
+
+.btn_atas{
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.con_h1{
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.con_h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.con_h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.nama_tengah{
+    color: red;
+}
